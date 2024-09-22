@@ -69,7 +69,9 @@ Aquí tienes la lista y descripción de los roles disponibles en el servidor:
 - ⚡️ Server Booster* - Chat premium y poderes adicionales
 
 Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servidor..
+
 ---
+
 <p align="center">
   ¡Únete hoy mismo! ¡Sigamos ayudando y compartiendo juntos sobre juegos y soporte informático! No dudes en invitar a tus amigos a unirse a nuestra comunidad. ¡Juntos somos más fuertes! 👥🚀 #chachitosmafia #Discord #soporte
 </p>
