@@ -67,9 +67,26 @@ Aquí tienes la lista y descripción de los roles disponibles en el servidor:
 - 🔱 Active Users™ - Miembros fundadores
 - ⚡️ Server Booster - Chat premium y poderes adicionales
 
-Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servidor..
+Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servidor.
 
----
+## 📦 Información Adicional
+
+### Paquetes y Dependencias
+Aquí puedes listar los paquetes y dependencias importantes para el proyecto. Puedes agregar información sobre cómo instalarlos y configurarlos si es necesario. Por ejemplo:
+
+- **Node.js**: Requiere Node.js versión 16 o superior.
+- **Dependencias**:
+  - `discord.js`: Librería principal para interactuar con la API de Discord.
+  - `dotenv`: Para manejar variables de entorno.
+  - `express`: Para manejar la parte del servidor web, si es necesario.
+
+### Cómo Actualizar el Repositorio
+Para mantener tu repositorio actualizado con los últimos cambios:
+
+1. **Hacer cambios**: Realiza los cambios necesarios en el proyecto.
+2. **Agregar archivos**: Usa `git add <file>` para agregar archivos específicos o `git add .` para agregar todos los cambios.
+3. **Confirmar cambios**: Usa `git commit -m "Mensaje del commit"` para confirmar los cambios.
+4. **Sincronizar con GitHub**: Usa `git pull origin main` para obtener los últimos cambios del repositorio remoto y luego `git push origin main` para subir tus cambios.
 
 <p align="center">
   ¡Únete hoy mismo! ¡Sigamos ayudando y compartiendo juntos sobre juegos y soporte informático! No dudes en invitar a tus amigos a unirse a nuestra comunidad. ¡Juntos somos más fuertes! 👥🚀 #chachitosmafia #Discord #soporte
