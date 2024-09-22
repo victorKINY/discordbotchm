@@ -1,5 +1,3 @@
-# Chachitos Mafia - Guía del Servidor de Discord
-
 <p align="center">
   <strong>👑 CHACHITOS MAFIA 💎</strong>
 </p>
