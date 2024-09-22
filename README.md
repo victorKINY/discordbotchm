@@ -1,7 +1,7 @@
 <p align="center">
   <strong>👑 CHACHITOS MAFIA 💎</strong>
 </p>
-
+---
 <p align="center">
   <strong>🌎 ¿Quiénes Somos?</strong>
 </p>
