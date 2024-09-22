@@ -27,27 +27,29 @@
 <p align="center">
   🔗 <strong>Redes Sociales</strong>:
 </p>
-<ul>
-  <li>●🔴 YouTube: <a href="https://www.youtube.com/@chachitosmafia">https://www.youtube.com/@chachitosmafia</a></li>
-  <li>●🐤 Twitter: <a href="https://twitter.com/ChachitosMafia">https://twitter.com/ChachitosMafia</a></li>
-  <li>●📸 Instagram: <a href="https://www.instagram.com/chachitosmafia/">https://www.instagram.com/chachitosmafia/</a></li>
-  <li>●🔵 Facebook: <a href="https://www.facebook.com/chachitosmafia">https://www.facebook.com/chachitosmafia</a></li>
-  <li>●🎨 Sitio web: <a href="https://victorkiny.com/chachitosmafia/">https://victorkiny.com/chachitosmafia/</a></li>
-</ul>
+
+<p align="center">
+  🔴 YouTube: <a href="https://www.youtube.com/@chachitosmafia">https://www.youtube.com/@chachitosmafia</a><br>
+  🐤 Twitter: <a href="https://twitter.com/ChachitosMafia">https://twitter.com/ChachitosMafia</a><br>
+  📸 Instagram: <a href="https://www.instagram.com/chachitosmafia/">https://www.instagram.com/chachitosmafia/</a><br>
+  🔵 Facebook: <a href="https://www.facebook.com/chachitosmafia">https://www.facebook.com/chachitosmafia</a><br>
+  🎨 Sitio web: <a href="https://victorkiny.com/chachitosmafia/">https://victorkiny.com/chachitosmafia/</a>
+</p>
 
 <p align="center">
   <strong>Comunidad de Discord</strong>:
 </p>
-<ul>
-  <li>●🎪 Una comunidad agradable y amigable</li>
-  <li>●👑 Roles Variados, Recompensas por Niveles (Gaming, Skills)</li>
-  <li>●📢 Comunidad de Creadores de Contenido</li>
-  <li>●👨🏻‍💻 Computer Staff (Informáticos) para ayudar, Foros en el SV</li>
-  <li>●📩 Contacto directo con el Soporte (Tickets)</li>
-  <li>●🤖 Bots Útiles y algunos Propios para tu seguridad</li>
-  <li>●🎮 Gamers en potencia, frikis de variedad</li>
-  <li>●🔊 Crea tu sala propia en este servidor, juega con tus amigos</li>
-</ul>
+
+<p align="center">
+  🎪 Una comunidad agradable y amigable<br>
+  👑 Roles Variados, Recompensas por Niveles (Gaming, Skills)<br>
+  📢 Comunidad de Creadores de Contenido<br>
+  👨🏻‍💻 Computer Staff (Informáticos) para ayudar, Foros en el SV<br>
+  📩 Contacto directo con el Soporte (Tickets)<br>
+  🤖 Bots Útiles y algunos Propios para tu seguridad<br>
+  🎮 Gamers en potencia, frikis de variedad<br>
+  🔊 Crea tu sala propia en este servidor, juega con tus amigos
+</p>
 
 <p align="center">
   ¡Únete hoy mismo! ¡Sigamos ayudando y compartiendo juntos sobre juegos y soporte informático! No dudes en invitar a tus amigos a unirse a nuestra comunidad. ¡Juntos somos más fuertes! 👥🚀 #chachitosmafia #Discord #soporte
@@ -58,9 +60,6 @@
 </p>
 
 <p align="center">
-  ¡Thank you!
-</p>
-
-<p align="center">
+  ¡Thank you!<br>
   Repositorio de bot de Replit
 </p>
