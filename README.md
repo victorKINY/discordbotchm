@@ -47,29 +47,29 @@
 Aquí tienes la lista y descripción de los roles disponibles en el servidor:
 
 ### 🔰 Roles Admin/Moderación
-- <@&697982468329832561> - Administradores
-- <@&613883155212009513> - Miembros del Staff
-- <@&703095635657752576> - Moderadores
-- <@&796961621108195339> - Miembros destacados
+- 👑 Administrator™ - Administradores
+- 🎪 Staff CHMafia™ - Miembros del Staff
+- 👮 Moderator™ - Moderadores
+- 💎 VIP Users™ - Miembros destacados
 
 ### 🎭 Autoroles Skills/Suplemento
 - ⭐️ **Skills**: Roles técnicos y de destrezas (10 roles disponibles)
 - 💊 **Suplemento**: Roles de preferencias personales (12 roles disponibles)
 
 ### 🏅 Rangos por Nivel (XP/LVL/RP)
-- <@&984254324500725813> - Rol especial desbloqueado
-- <@&984254290145206302> - Reacción personalizada desbloqueada
-- <@&984254244028809266> - Emoticono personalizado desbloqueado
-- <@&984254221341839400> - Pegatinas en ⁠⌠💭⌡general
-- <@&984254186482982993> - Uso de enlaces desbloqueado
-- <@&984253992605454377> - Uso de emojis externos desbloqueado
+- 🫅 Maestro MAX LVL 100 - Rol especial desbloqueado
+- 🥷 Experto LVL 50 - Reacción personalizada desbloqueada
+- 👩‍🚀 Avanzado LVL 25 - Emoticono personalizado desbloqueado
+- 🧑‍⚖️ Intermedio LVL 15 - Pegatinas en ⁠⌠💭⌡general
+- 🧌 Aprendiz LVL 10 - Uso de enlaces desbloqueado
+- 🧟 Novato LVL 5 - Uso de emojis externos desbloqueado
 
 ### 🌟 Condecoraciones Especiales
-- <@&1119998616493367318> - Miembros fundadores
-- <@&703156101692260424> - Chat premium y poderes adicionales
+- 🔱 Active Users™ - Miembros fundadores
+- ⚡️ Server Booster* - Chat premium y poderes adicionales
 
-Para más detalles, contacta con el soporte en <#895814067179102208>.
-
+Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servidor..
+---
 <p align="center">
   ¡Únete hoy mismo! ¡Sigamos ayudando y compartiendo juntos sobre juegos y soporte informático! No dudes en invitar a tus amigos a unirse a nuestra comunidad. ¡Juntos somos más fuertes! 👥🚀 #chachitosmafia #Discord #soporte
 </p>
