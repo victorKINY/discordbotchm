@@ -28,11 +28,11 @@
   🔗 <strong>Redes Sociales</strong>:
 </p>
 <ul>
-  <li align="center">🔴 YouTube: <a href="https://www.youtube.com/@chachitosmafia">https://www.youtube.com/@chachitosmafia</a></li>
-  <li align="center">🐤 Twitter: <a href="https://twitter.com/ChachitosMafia">https://twitter.com/ChachitosMafia</a></li>
-  <li align="center">📸 Instagram: <a href="https://www.instagram.com/chachitosmafia/">https://www.instagram.com/chachitosmafia/</a></li>
-  <li align="center">🔵 Facebook: <a href="https://www.facebook.com/chachitosmafia">https://www.facebook.com/chachitosmafia</a></li>
-  <li align="center">🎨 Sitio web: <a href="https://victorkiny.com/chachitosmafia/">https://victorkiny.com/chachitosmafia/</a></li>
+  <li>●🔴 YouTube: <a href="https://www.youtube.com/@chachitosmafia">https://www.youtube.com/@chachitosmafia</a></li>
+  <li>●🐤 Twitter: <a href="https://twitter.com/ChachitosMafia">https://twitter.com/ChachitosMafia</a></li>
+  <li>●📸 Instagram: <a href="https://www.instagram.com/chachitosmafia/">https://www.instagram.com/chachitosmafia/</a></li>
+  <li>●🔵 Facebook: <a href="https://www.facebook.com/chachitosmafia">https://www.facebook.com/chachitosmafia</a></li>
+  <li>●🎨 Sitio web: <a href="https://victorkiny.com/chachitosmafia/">https://victorkiny.com/chachitosmafia/</a></li>
 </ul>
 
 <p align="center">
