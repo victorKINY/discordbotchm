@@ -1,7 +1,7 @@
-# discordbotchm
+# Chachitos Mafia - Guía del Servidor de Discord
 
 <p align="center">
-  <strong>👑CHACHITOS MAFIA💎</strong>
+  <strong>👑 CHACHITOS MAFIA 💎</strong>
 </p>
 
 <p align="center">
@@ -36,20 +36,41 @@
   🎨 Sitio web: <a href="https://victorkiny.com/chachitosmafia/">https://victorkiny.com/chachitosmafia/</a>
 </p>
 
-<p align="center">
-  <strong>Comunidad de Discord</strong>:
-</p>
+## 📢 Qué Ofrecemos
 
-<p align="center">
-  🎪 Una comunidad agradable y amigable<br>
-  👑 Roles Variados, Recompensas por Niveles (Gaming, Skills)<br>
-  📢 Comunidad de Creadores de Contenido<br>
-  👨🏻‍💻 Computer Staff (Informáticos) para ayudar, Foros en el SV<br>
-  📩 Contacto directo con el Soporte (Tickets)<br>
-  🤖 Bots Útiles y algunos Propios para tu seguridad<br>
-  🎮 Gamers en potencia, frikis de variedad<br>
-  🔊 Crea tu sala propia en este servidor, juega con tus amigos
-</p>
+- **🎮 Juegos y Torneos**: Únete a partidas, participa en eventos y crea salas personalizadas.
+- **👨‍💻 Soporte Técnico**: Obtén ayuda para problemas de PC y tecnología a través de nuestro sistema de tickets.
+- **💡 Roles y Recompensas**: Gana experiencia y desbloquea roles y recompensas a medida que participas.
+- **🔰 Sistema de Mejoras**: Apoya al servidor para obtener acceso a características exclusivas.
+- **🤖 Bots y Herramientas**: Usa nuestros bots útiles para gestionar tu experiencia en el servidor.
+
+## 📜 Roles y Rangos
+
+Aquí tienes la lista y descripción de los roles disponibles en el servidor:
+
+### 🔰 Roles Admin/Moderación
+- <@&697982468329832561> - Administradores
+- <@&613883155212009513> - Miembros del Staff
+- <@&703095635657752576> - Moderadores
+- <@&796961621108195339> - Miembros destacados
+
+### 🎭 Autoroles Skills/Suplemento
+- ⭐️ **Skills**: Roles técnicos y de destrezas (10 roles disponibles)
+- 💊 **Suplemento**: Roles de preferencias personales (12 roles disponibles)
+
+### 🏅 Rangos por Nivel (XP/LVL/RP)
+- <@&984254324500725813> - Rol especial desbloqueado
+- <@&984254290145206302> - Reacción personalizada desbloqueada
+- <@&984254244028809266> - Emoticono personalizado desbloqueado
+- <@&984254221341839400> - Pegatinas en ⁠⌠💭⌡general
+- <@&984254186482982993> - Uso de enlaces desbloqueado
+- <@&984253992605454377> - Uso de emojis externos desbloqueado
+
+### 🌟 Condecoraciones Especiales
+- <@&1119998616493367318> - Miembros fundadores
+- <@&703156101692260424> - Chat premium y poderes adicionales
+
+Para más detalles, contacta con el soporte en <#895814067179102208>.
 
 <p align="center">
   ¡Únete hoy mismo! ¡Sigamos ayudando y compartiendo juntos sobre juegos y soporte informático! No dudes en invitar a tus amigos a unirse a nuestra comunidad. ¡Juntos somos más fuertes! 👥🚀 #chachitosmafia #Discord #soporte
@@ -60,6 +81,5 @@
 </p>
 
 <p align="center">
-  ¡Thank you!<br>
-  Repositorio de bot de Replit
+  ¡Thank you!
 </p>
