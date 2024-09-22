@@ -1,6 +1,6 @@
 # discordbotchm
 # 👑CHACHITOS MAFIA💎
-![WALLPAPER CHACHITOS MAFIA](https://github.com/victorKINY/discordbotchm/blob/main/walpaper%20%201080%20discord%20chachitos%20mafia.jpg)
+
 
 # 🌎 ¿Quiénes Somos?
 
@@ -9,7 +9,7 @@ En resumen, **Chachitos Mafia** es una comunidad de Discord para personas intere
 Ofrecemos una amplia variedad de roles, recompensas por niveles, un equipo de informáticos para ayudar con cualquier problema, una sección para creadores de contenido, bots útiles y la posibilidad de crear tu propia sala para jugar con amigos.
 
 🌐 **ENLACE DE INVITACIÓN** ⨭〉🔗 [https://discord.gg/stwTKAw](https://discord.gg/stwTKAw)
-
+![WALLPAPER CHACHITOS MAFIA](https://github.com/victorKINY/discordbotchm/blob/main/walpaper%20%201080%20discord%20chachitos%20mafia.jpg)
 🔗 **Redes Sociales**:
 - 🔴 YouTube: [https://www.youtube.com/@chachitosmafia](https://www.youtube.com/@chachitosmafia)
 - 🐤 Twitter: [https://twitter.com/ChachitosMafia](https://twitter.com/ChachitosMafia)
