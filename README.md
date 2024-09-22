@@ -1,6 +1,5 @@
 # discordbotchm
-# 👑CHACHITOS MAFIA💎━━━━━Repositorio de bot de Replit━━━━━
-
+# 👑CHACHITOS MAFIA💎
 ![WALLPAPER CHACHITOS MAFIA](https://github.com/victorKINY/discordbotchm/blob/main/walpaper%20%201080%20discord%20chachitos%20mafia.jpg)
 
 # 🌎 ¿Quiénes Somos?
@@ -33,3 +32,5 @@ Ofrecemos una amplia variedad de roles, recompensas por niveles, un equipo de in
 Creando, trabajamos en ello, error tras error, mirando alto!
 
 ¡Thank you!
+
+Repositorio de bot de Replit
