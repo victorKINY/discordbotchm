@@ -57,5 +57,10 @@
   Creando, trabajamos en ello, error tras error, mirando alto!
 </p>
 
-<p align="cen
+<p align="center">
+  ¡Thank you!
+</p>
 
+<p align="center">
+  Repositorio de bot de Replit
+</p>
