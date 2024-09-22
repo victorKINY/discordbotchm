@@ -66,7 +66,7 @@ Aquí tienes la lista y descripción de los roles disponibles en el servidor:
 
 ### 🌟 Condecoraciones Especiales
 - 🔱 Active Users™ - Miembros fundadores
-- ⚡️ Server Booster* - Chat premium y poderes adicionales
+- ⚡️ Server Booster - Chat premium y poderes adicionales
 
 Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servidor..
 
