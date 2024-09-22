@@ -107,6 +107,28 @@ Proporciona pasos detallados para instalar y configurar el bot desde cero. Esto 
    npm start
 Tu bot debería estar en funcionamiento ahora. Si encuentras algún problema, consulta la sección de problemas comunes a continuación.
 
+## 🔄 UPDATE FILES GIT % REPLIT
+
+Proporciona pasos detallados para instalar y configurar el bot desde cero. Esto es útil para quienes deseen desplegar el bot en su propio entorno.
+
+1. **Haz un Pull para Integrar los Cambios Remotos** Ejecuta el siguiente comando para descargar e integrar los cambios del repositorio remoto::
+   ```bash
+   git pull origin main
+Esto descargará los cambios del repositorio remoto y los fusionará con tu rama local. Si hay conflictos durante la fusión, Git te pedirá que los resuelvas antes de poder continuar.
+
+2. **Resuelve Conflictos (si los hay)**:
+   ```bash
+   git add <archivo_resuelto>
+   
+3. **Luego, completa la fusión con un commit:**:
+   ```bash
+   git commit
+
+4. **Realiza el Push de tus Cambios:**:
+   ```bash
+   git push origin main
+
+Tu bot debería estar en funcionamiento ahora. Si encuentras algún problema, consulta la sección de problemas comunes a continuación.
 ## ❓ Problemas Comunes
 
 Anticipa posibles problemas que los usuarios puedan encontrar y proporciona soluciones o pasos de solución.
