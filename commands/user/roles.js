@@ -32,7 +32,7 @@ module.exports = {
                 - <@&1119998616493367318> - Para los miembros fundadores
                 - <@&703156101692260424> - Desbloquea chat premium y poderes adicionales
 
-                ● Para más ayuda, 🧏 contactaa con el soporte ➜ ⁠<#895814067179102208>
+                ● Para más ayuda, 🧏 contacta con el soporte ➜ ⁠<#895814067179102208>
             `)
             .setFooter({ text: 'Gracias | Copyright © 2024 All rights reserved by victorKINY.com' });
 
