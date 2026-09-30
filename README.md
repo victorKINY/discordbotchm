@@ -76,7 +76,21 @@ Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servi
 - **Contador de mensajes por servidor**: lleva la cuenta de mensajes enviados en cada servidor donde está el bot.
 - **Servidor web de estado (Express)**: sirve una página con el estado del bot (activo/iniciando), lista de servidores conectados y mensajes contados en cada uno. Su función principal es mantener el Repl despierto mediante pings externos (patrón típico de bots alojados en Replit).
 - **Tarea programada (cron)**: cada 5 minutos comprueba el ping/latencia del bot en cada servidor y lo registra en consola.
+- **Mensaje periódico de ayuda**: cada 72 horas, envía automáticamente la lista de comandos a un canal fijo del servidor (activable/desactivable con `enablePeriodicMessages` en `config/config.js`).
 - **Logs**: usa `winston` con rotación diaria de archivos (`winston-daily-rotate-file`), guardados en la carpeta `logs/`.
+
+### Comandos disponibles (prefijo configurable)
+
+| Comando | Qué hace |
+|---|---|
+| `{prefix}ayuda` | Muestra esta lista de comandos |
+| `{prefix}ticket` | Crea un nuevo ticket de soporte |
+| `{prefix}info` | Información sobre el servidor |
+| `{prefix}normas` | Muestra las normas del servidor |
+| `{prefix}roles` | Lista y describe los roles disponibles |
+| `{prefix}server` | Información y características del servidor |
+| `{prefix}comunidad` | Guías, redes sociales y recursos comunitarios |
+| `{prefix}seguridad` | Consejos de seguridad y procedimientos de ayuda |
 
 ## 📦 Paquetes y Dependencias
 
@@ -156,6 +170,7 @@ Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servi
 - **Mantén tu repositorio limpio**: elimina archivos innecesarios, solo lo relevante al proyecto.
 - **Documenta tus cambios**: usa mensajes de commit descriptivos.
 - **Nunca subas tu `.env` ni tu token** — confirma que `.env` está en `.gitignore` antes de cualquier commit.
+- **Centraliza los IDs de roles/canales**: varios comandos (`normas`, `seguridad`, el mensaje periódico) tienen IDs de Discord escritos directamente en el código. Moverlos a `config/config.js` como constantes con nombre facilitaría reutilizar el bot en otro servidor sin tener que buscar archivo por archivo.
 
 <p align="center"> ¡Únete hoy mismo y sigue compartiendo y aprendiendo con nosotros! 🚀 </p>
 <p align="center"> Creando, trabajando en ello, error tras error, mirando alto! </p>
