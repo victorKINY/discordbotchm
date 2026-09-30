@@ -69,88 +69,94 @@ Aquí tienes la lista y descripción de los roles disponibles en el servidor:
 
 Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servidor.
 
-## 📦 Información Adicional
+## ⚙️ Cómo funciona el bot por dentro
 
-### Paquetes y Dependencias
-Aquí puedes listar los paquetes y dependencias importantes para el proyecto. Incluye información sobre cómo instalarlos y configurarlos si es necesario:
+- **Comandos por prefijo**: se cargan automáticamente desde las carpetas `ticket/` (sistema de tickets de soporte) y `commands/user/` (comandos de usuario). Cada archivo `.js` de esas carpetas se registra solo al arrancar.
+- **Respuesta automática a palabras clave**: si alguien escribe "ayuda", "necesito ayuda" o "ayuda pc" en cualquier canal, el bot responde con un embed dirigiendo al rol de soporte y al canal de tickets — sin necesidad de comando.
+- **Contador de mensajes por servidor**: lleva la cuenta de mensajes enviados en cada servidor donde está el bot.
+- **Servidor web de estado (Express)**: sirve una página con el estado del bot (activo/iniciando), lista de servidores conectados y mensajes contados en cada uno. Su función principal es mantener el Repl despierto mediante pings externos (patrón típico de bots alojados en Replit).
+- **Tarea programada (cron)**: cada 5 minutos comprueba el ping/latencia del bot en cada servidor y lo registra en consola.
+- **Logs**: usa `winston` con rotación diaria de archivos (`winston-daily-rotate-file`), guardados en la carpeta `logs/`.
 
-- **Node.js**: Requiere Node.js versión 16 o superior.
-- **Dependencias**:
-  - `discord.js`: Librería principal para interactuar con la API de Discord. Instalación: `npm install discord.js`
-  - `dotenv`: Para manejar variables de entorno, útil para guardar y cargar las configuraciones de la aplicación. Instalación: `npm install dotenv`
-  - `express`: Para manejar la parte del servidor web, si es necesario. Instalación: `npm install express`
-  - `axios`: Para hacer solicitudes HTTP, si es necesario para la integración con APIs externas. Instalación: `npm install axios`
-  - `mongoose`: Si usas MongoDB para almacenar datos. Instalación: `npm install mongoose`
+## 📦 Paquetes y Dependencias
 
-### 🛠️ Instalación y Configuración
+- **Node.js**: versión 16 o superior.
+- **Dependencias reales** (de `package.json`):
+  - `discord.js` — librería principal para la API de Discord
+  - `@discordjs/rest` + `discord-api-types` — utilidades de bajo nivel para la API de Discord
+  - `dotenv` — variables de entorno (token del bot)
+  - `express` — servidor web de estado / keep-alive
+  - `node-cron` — tarea programada de comprobación de ping
+  - `winston` + `winston-daily-rotate-file` — sistema de logs con rotación diaria
 
-Proporciona pasos detallados para instalar y configurar el bot desde cero. Esto es útil para quienes deseen desplegar el bot en su propio entorno.
+## 🛠️ Instalación y Configuración
 
-1. **Clona el Repositorio**:
+### En Replit (como corre este bot actualmente)
+
+1. Importa el repositorio en Replit ("Create Repl" → "Import from GitHub").
+2. En la pestaña **Secrets** (icono de candado), añade:
+   - `TOKEN` → tu token de bot de Discord
+3. Pulsa **Run**. El propio `package.json`/Replit instala las dependencias automáticamente.
+4. La página de estado se sirve en la URL pública que te da Replit (usa el puerto de `process.env.PORT`).
+
+### En local (alternativa)
+
+1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-
-2. **Accede al Directorio del Proyecto**:
-   ```bash
-   cd nombre_del_proyecto
-3. **Instala las Dependencias**:
+   git clone https://github.com/victorKINY/discordbotchm.git
+   cd discordbotchm
+   ```
+2. Instala las dependencias:
    ```bash
    npm install
-4. **Configuración: Crea un Archivo .env: Crea un archivo .env en el directorio raíz del proyecto y añade tu token de bot de Discord:**:
-   ```bash
+   ```
+3. Crea un archivo `.env` en la raíz del proyecto (asegúrate de que está en `.gitignore`):
+   ```
    TOKEN=tu_token_de_discord
-5. **Configura el Archivo config/config.js: Asegúrate de que el archivo config/config.js esté correctamente configurado con el prefijo y las IDs de los canales.**:
-   ```bash
-   TOKEN=tu_token_de_discord
-5. **Configura el Archivo config/config.js: Asegúrate de que el archivo config/config.js esté correctamente configurado con el prefijo y las IDs de los canales.**:
+   ```
+4. Configura `config/config.js` con tu prefijo de comandos y el `welcomeChannelId`.
+5. Arranca el bot:
    ```bash
    npm start
-Tu bot debería estar en funcionamiento ahora. Si encuentras algún problema, consulta la sección de problemas comunes a continuación.
+   ```
 
-## 🔄 UPDATE FILES GIT % REPLIT
+## 🔄 Actualizar el bot
 
-Proporciona pasos detallados para instalar y configurar el bot desde cero. Esto es útil para quienes deseen desplegar el bot en su propio entorno.
-
-1. **Haz un Pull para Integrar los Cambios Remotos** Ejecuta el siguiente comando para descargar e integrar los cambios del repositorio remoto::
+1. Descarga los cambios más recientes:
    ```bash
    git pull origin main
-Esto descargará los cambios del repositorio remoto y los fusionará con tu rama local. Si hay conflictos durante la fusión, Git te pedirá que los resuelvas antes de poder continuar.
-
-2. **Resuelve Conflictos (si los hay)**:
+   ```
+2. Si hay conflictos, resuélvelos y termina la fusión:
    ```bash
    git add <archivo_resuelto>
-   
-3. **Luego, completa la fusión con un commit:**:
-   ```bash
    git commit
-
-4. **Realiza el Push de tus Cambios:**:
+   ```
+3. Si trabajas sobre tu propia copia, sube tus cambios:
    ```bash
    git push origin main
+   ```
+4. En Replit, si importaste el repo, usa el botón de sincronización con GitHub para traer los cambios.
 
-Tu bot debería estar en funcionamiento ahora. Si encuentras algún problema, consulta la sección de problemas comunes a continuación.
 ## ❓ Problemas Comunes
 
-Anticipa posibles problemas que los usuarios puedan encontrar y proporciona soluciones o pasos de solución.
+### El bot no responde
+- **Verifica el token**: confirma que `TOKEN` en Secrets (Replit) o `.env` (local) es correcto y no ha caducado.
+- **Revisa los logs**: mira la carpeta `logs/` o la consola para errores de conexión con la API de Discord.
+- **Repl dormido**: si no hay pings recientes a la página de estado, Replit puede haber puesto el proyecto a dormir — revisa el servicio externo de uptime si usas uno.
 
-### El Bot No Responde
+### Comando no reconocido
+- Confirma que el prefijo en `config/config.js` coincide con el que estás escribiendo.
+- Verifica que el archivo del comando esté en `ticket/` o `commands/user/` y no tenga errores de sintaxis (revisa la consola al arrancar, ahí se listan los fallos de carga).
 
-- **Verifica el Token**: Asegúrate de que el token en el archivo `.env` sea correcto.
-- **Revisa los Logs**: Verifica la consola para ver si hay errores de conexión o problemas con la API de Discord.
-
-### Problemas con Comandos
-
-- **Comando No Reconocido**: Asegúrate de que el prefijo del comando esté configurado correctamente en el archivo `config/config.js`.
-- **Errores en la Ejecución**: Verifica que todas las dependencias estén instaladas correctamente usando `npm install`.
-
-### Actualización del Bot
-
-- **Actualiza Dependencias**: Usa `npm update` para asegurarte de que todas las dependencias estén al día.
-- **Actualiza el Código**: Si hay actualizaciones en el repositorio, asegúrate de hacer un pull para obtener los últimos cambios y resolver posibles conflictos.
+### Errores al instalar dependencias
+- Ejecuta `npm install` de nuevo — si persiste, borra `node_modules` y `package-lock.json` y repite.
 
 ## 📝 Recomendaciones
 
-- **Mantén tu Repositorio Limpio**: Elimina archivos innecesarios y asegúrate de que el repositorio solo contenga archivos relevantes para el proyecto.
-- **Documenta tus Cambios**: Usa mensajes de commit descriptivos para facilitar la comprensión del historial del proyecto.
+- **Mantén tu repositorio limpio**: elimina archivos innecesarios, solo lo relevante al proyecto.
+- **Documenta tus cambios**: usa mensajes de commit descriptivos.
+- **Nunca subas tu `.env` ni tu token** — confirma que `.env` está en `.gitignore` antes de cualquier commit.
 
-<p align="center"> ¡Únete hoy mismo y sigue compartiendo y aprendiendo con nosotros! 🚀 </p> <p align="center"> Creando, trabajando en ello, error tras error, mirando alto! </p> <p align="center"> ¡Thank you! </p> 
+<p align="center"> ¡Únete hoy mismo y sigue compartiendo y aprendiendo con nosotros! 🚀 </p>
+<p align="center"> Creando, trabajando en ello, error tras error, mirando alto! </p>
+<p align="center"> ¡Thank you! </p>
