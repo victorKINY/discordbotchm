@@ -1,6 +1,11 @@
 <p align="center">
   <strong>👑 CHACHITOS MAFIA 💎</strong>
 </p>
+
+---
+
+# 🏠 El Servidor
+
 <p align="center">
   <strong>🌎 ¿Quiénes Somos?</strong>
 </p>
@@ -43,8 +48,6 @@
 
 ## 📜 Roles y Rangos
 
-Aquí tienes la lista y descripción de los roles disponibles en el servidor:
-
 ### 🔰 Roles Admin/Moderación
 - 👑 Administrator™ - Administradores
 - 🎪 Staff CHMafia™ - Miembros del Staff
@@ -69,7 +72,11 @@ Aquí tienes la lista y descripción de los roles disponibles en el servidor:
 
 Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servidor.
 
-## ⚙️ Cómo funciona el bot por dentro
+---
+
+# 🤖 El Bot
+
+## ⚙️ Cómo funciona por dentro
 
 - **Comandos por prefijo**: se cargan automáticamente desde las carpetas `ticket/` (sistema de tickets de soporte) y `commands/user/` (comandos de usuario). Cada archivo `.js` de esas carpetas se registra solo al arrancar.
 - **Respuesta automática a palabras clave**: si alguien escribe "ayuda", "necesito ayuda" o "ayuda pc" en cualquier canal, el bot responde con un embed dirigiendo al rol de soporte y al canal de tickets — sin necesidad de comando.
@@ -79,7 +86,7 @@ Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servi
 - **Mensaje periódico de ayuda**: cada 72 horas, envía automáticamente la lista de comandos a un canal fijo del servidor (activable/desactivable con `enablePeriodicMessages` en `config/config.js`).
 - **Logs**: usa `winston` con rotación diaria de archivos (`winston-daily-rotate-file`), guardados en la carpeta `logs/`.
 
-### Comandos disponibles (prefijo configurable)
+## 💬 Comandos disponibles (prefijo configurable)
 
 | Comando | Qué hace |
 |---|---|
@@ -110,6 +117,7 @@ Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servi
 1. Importa el repositorio en Replit ("Create Repl" → "Import from GitHub").
 2. En la pestaña **Secrets** (icono de candado), añade:
    - `TOKEN` → tu token de bot de Discord
+   - `GITHUB_TOKEN` → tu token de GitHub Packages (usado por `.npmrc`)
 3. Pulsa **Run**. El propio `package.json`/Replit instala las dependencias automáticamente.
 4. La página de estado se sirve en la URL pública que te da Replit (usa el puerto de `process.env.PORT`).
 
@@ -127,6 +135,7 @@ Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servi
 3. Crea un archivo `.env` en la raíz del proyecto (asegúrate de que está en `.gitignore`):
    ```
    TOKEN=tu_token_de_discord
+   GITHUB_TOKEN=tu_token_de_github_packages
    ```
 4. Configura `config/config.js` con tu prefijo de comandos y el `welcomeChannelId`.
 5. Arranca el bot:
@@ -169,8 +178,10 @@ Para más detalles, contacta con el soporte en ⌠📩⌡ticket dentro del servi
 
 - **Mantén tu repositorio limpio**: elimina archivos innecesarios, solo lo relevante al proyecto.
 - **Documenta tus cambios**: usa mensajes de commit descriptivos.
-- **Nunca subas tu `.env` ni tu token** — confirma que `.env` está en `.gitignore` antes de cualquier commit.
-- **Centraliza los IDs de roles/canales**: varios comandos (`normas`, `seguridad`, el mensaje periódico) tienen IDs de Discord escritos directamente en el código. Moverlos a `config/config.js` como constantes con nombre facilitaría reutilizar el bot en otro servidor sin tener que buscar archivo por archivo.
+- **Nunca subas tu `.env` ni tus tokens** — confirma que `.env` está en `.gitignore` antes de cualquier commit (ya lo está).
+- **Centraliza los IDs de roles/canales** *(pendiente, no urgente)*: varios comandos (`normas`, `seguridad`, el mensaje periódico) tienen IDs de Discord escritos directamente en el código. Moverlos a `config/config.js` como constantes con nombre facilitaría reutilizar el bot en otro servidor sin buscar archivo por archivo.
+
+---
 
 <p align="center"> ¡Únete hoy mismo y sigue compartiendo y aprendiendo con nosotros! 🚀 </p>
 <p align="center"> Creando, trabajando en ello, error tras error, mirando alto! </p>
